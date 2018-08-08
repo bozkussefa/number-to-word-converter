@@ -3,14 +3,14 @@ package com.company;
 public class Main {
 
     private static final String ZERO = "sıfır";
-    private static final String[] FIRST_DIGIT = {"", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"};
-    private static final String[] SECOND_DIGIT = {"", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"};
-    private static final String[] THIRD_DIGIT = {"", "yüz", "ikiyüz", "üçyüz", "dörtyüz", "beşyüz", "altıyüz", "yediyüz", "sekizyüz", "dokuzyüz"};
+    private static final String[] FIRST_DIGIT = {"", "bir ", "ik i", "üç ", "dört ", "beş ", "altı ", "yedi ", "sekiz ", "dokuz "};
+    private static final String[] SECOND_DIGIT = {"", "on ", "yirmi ", "otuz ", "kırk ", "elli ", "altmış ", "yetmiş ", "seksen ", "doksan "};
+    private static final String[] THIRD_DIGIT = {"", "yüz ", "iki yüz ", "üç yüz ", "dört yüz ", "beş yüz ", "altı yüz ", "yedi yüz ", "sekiz yüz ", "dokuz yüz "};
     private static final String[] SUFFIX = {"", "bin ", "milyon "};
 
     public static void main(String[] args) {
 
-        String number = "999999999";
+        String number = "100356900";
         System.out.println(operations(number));
 
     }
@@ -35,7 +35,7 @@ public class Main {
                     result.insert(0, convertToWord(temp, count++));
                 }
             }
-            return String.valueOf(result);
+            return String.valueOf(result).trim();
         }
     }
 
