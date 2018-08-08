@@ -1,5 +1,5 @@
 Bu programımızda sayıyı yazıya çeviriyoruz.
-Türlçede sayılar üçerli üçerli okunur ve varsa sayının sonuna "bin,milyon" gibi son ekler getirilir.
+Türkçede sayılar üçerli üçerli okunur ve varsa sayının sonuna "bin,milyon" gibi son ekler getirilir.
 
 Program milyonlu sayılara kadar destek verir. İstenildiği taktirde bu destek kolay bir şekilde arttırılabilir.
 
